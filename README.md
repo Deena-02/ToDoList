@@ -69,7 +69,7 @@ Note: You can also use the deployed versions of the app:
 - You can add ,update tasks, mark them as completed or delete them.
 
 ## Output
-![MERN TODO List App](./output.jpeg)
+![MERN TODO List App](frontend/public/output.jpeg)
 
 ## Contributing
 
