@@ -10,7 +10,7 @@ const Home = () => {
     const [taskid, setTaskid] = useState('');
 
     useEffect(() => {
-        axios.get('http://todolist-imkh.onrender.com/get')
+        axios.get(`${process.env.REACT_APP_BACKEND_URL}/get`)
             .then(result => setTodos(result.data))
             .catch(err => console.log(err));
     }, []);
